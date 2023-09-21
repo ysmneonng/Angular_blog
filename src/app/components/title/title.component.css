@@ -1,0 +1,22 @@
+.menu-title__container{
+    color:  rgb(26, 25, 25);
+    box-sizing: border-box;
+    border-width: 60%;
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.menu-title__bigTitle{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.menu-title__smallTitle{
+    align-self: last baseline;
+    font-size: 5px;
+    margin: 5px;
+}

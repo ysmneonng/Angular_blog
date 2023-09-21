@@ -1,0 +1,25 @@
+.container__small-card{
+    margin: 10px;
+}
+
+.container__small-card-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.small-card__description{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card__description > p > a{
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+
+.small-card__photo > img {
+    width: 100%;
+    min-width: 150px;
+    margin-right: 5%;
+}
