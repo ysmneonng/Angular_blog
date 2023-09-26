@@ -4,7 +4,7 @@
 
 .container__small-card-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .small-card__description{
@@ -15,11 +15,13 @@
 
 .small-card__description > p > a{
     color: rgb(73, 73, 73);
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .small-card__photo > img {
     width: 100%;
     min-width: 150px;
     margin-right: 5%;
+    border-radius: 10px;
+    object-fit: cover;
 }
